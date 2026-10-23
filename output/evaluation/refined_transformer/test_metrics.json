@@ -1,0 +1,28 @@
+{
+  "checkpoint": "/fab3/btech/2023/rishabh.jain23b/NLP/Final/output/checkpoints/refined_transformer_seed19/averaged_5_dev_chrf.pt",
+  "teacher_forced": {
+    "test_cross_entropy": 2.351045108158159,
+    "test_perplexity": 10.496534007622603,
+    "test_token_accuracy": 54.7969975673531
+  },
+  "greedy": {
+    "BLEU": 16.942191237480568,
+    "chrF++": 42.79992761565211,
+    "TER": 68.71329137226712,
+    "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+    "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+    "TER_signature": "nrefs:1|case:lc|tok:tercom|norm:no|punct:yes|asian:no|version:2.6.0",
+    "seconds": 66.6569753519725
+  },
+  "beam": {
+    "beam_size": 2,
+    "length_penalty": 1.0,
+    "BLEU": 17.676492751244403,
+    "chrF++": 43.434618389893615,
+    "TER": 68.12945982432456,
+    "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+    "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+    "TER_signature": "nrefs:1|case:lc|tok:tercom|norm:no|punct:yes|asian:no|version:2.6.0",
+    "seconds": 71.3406137211714
+  }
+}

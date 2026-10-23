@@ -1,0 +1,41 @@
+{
+  "name": "refined_transformer",
+  "seed": 19,
+
+  "d_model": 384,
+  "nhead": 6,
+  "num_encoder_layers": 6,
+  "num_decoder_layers": 6,
+  "dim_feedforward": 1536,
+  "dropout": 0.1,
+  "activation": "gelu",
+  "norm_first": true,
+  "final_norm": true,
+  "tie_target_output": true,
+
+  "max_position": 512,
+  "max_train_content_len": 128,
+
+  "label_smoothing": 0.1,
+
+  "warmup_steps": 4000,
+  "noam_factor": 1.0,
+  "adam_beta1": 0.9,
+  "adam_beta2": 0.98,
+  "adam_eps": 1e-9,
+  "clip_norm": 1.0,
+
+  "batch_size": 128,
+  "dev_batch_size": 64,
+  "dev_decode_batch_size": 32,
+  "dev_max_new_tokens": 256,
+  "num_workers": 2,
+  "use_amp": true,
+
+  "max_epochs": 20,
+  "early_stopping_patience": 5,
+  "selection_metric": "dev_chrf",
+  "compute_dev_translation_metrics": true,
+  "save_epoch_checkpoints": true,
+  "zero_output_bias": true
+}

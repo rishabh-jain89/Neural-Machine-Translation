@@ -1,0 +1,44 @@
+{
+  "test_pairs": 2507,
+  "decoding": "greedy",
+  "batch_size": 32,
+  "max_new_tokens": 256,
+  "models": {
+    "bilstm": {
+      "checkpoint": "/fab3/btech/2023/rishabh.jain23b/NLP/Final/output/checkpoints/bilstm_bahdanau_seed19/best_checkpoint.pt",
+      "parameters": 32211329,
+      "teacher_forced": {
+        "cross_entropy": 3.354921757941505,
+        "perplexity": 28.64336298734723,
+        "token_accuracy": 39.14610191099374
+      },
+      "greedy": {
+        "BLEU": 8.970089317915768,
+        "chrF++": 32.09559282441737,
+        "TER": 83.11972929852551,
+        "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+        "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+        "TER_signature": "nrefs:1|case:lc|tok:tercom|norm:no|punct:yes|asian:no|version:2.6.0",
+        "decode_seconds": 7.997877203160897
+      }
+    },
+    "transformer": {
+      "checkpoint": "/fab3/btech/2023/rishabh.jain23b/NLP/Final/output/checkpoints/transformer_seed19/best_checkpoint.pt",
+      "parameters": 35012224,
+      "teacher_forced": {
+        "cross_entropy": 2.3973277363188052,
+        "perplexity": 10.993758869926799,
+        "token_accuracy": 52.90421615433648
+      },
+      "greedy": {
+        "BLEU": 15.646500930464157,
+        "chrF++": 41.06972952714426,
+        "TER": 71.59563090625383,
+        "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+        "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+        "TER_signature": "nrefs:1|case:lc|tok:tercom|norm:no|punct:yes|asian:no|version:2.6.0",
+        "decode_seconds": 27.643609364982694
+      }
+    }
+  }
+}

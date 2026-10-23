@@ -1,0 +1,138 @@
+{
+  "checkpoint": "/fab3/btech/2023/rishabh.jain23b/NLP/Final/output/checkpoints/refined_transformer_seed19/averaged_5_dev_chrf.pt",
+  "selection_metric": "dev chrF++",
+  "best": {
+    "method": "beam",
+    "beam_size": 2,
+    "length_penalty": 1.0,
+    "seconds": 11.997600251808763,
+    "BLEU": 17.561001373490154,
+    "chrF++": 43.50647323620796,
+    "TER": 69.2266380236305,
+    "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+    "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+    "TER_signature": "nrefs:1|case:lc|tok:tercom|norm:no|punct:yes|asian:no|version:2.6.0"
+  },
+  "all_results": [
+    {
+      "method": "greedy",
+      "beam_size": 1,
+      "length_penalty": null,
+      "seconds": 12.739052059827372,
+      "BLEU": 17.507683421429185,
+      "chrF++": 43.067744278967446,
+      "TER": 69.31256713211602,
+      "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+      "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+      "TER_signature": "nrefs:1|case:lc|tok:tercom|norm:no|punct:yes|asian:no|version:2.6.0"
+    },
+    {
+      "method": "beam",
+      "beam_size": 2,
+      "length_penalty": 0.6,
+      "seconds": 12.443226668983698,
+      "BLEU": 17.665672030058825,
+      "chrF++": 43.49732879545782,
+      "TER": 69.00107411385606,
+      "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+      "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+      "TER_signature": "nrefs:1|case:lc|tok:tercom|norm:no|punct:yes|asian:no|version:2.6.0"
+    },
+    {
+      "method": "beam",
+      "beam_size": 2,
+      "length_penalty": 0.8,
+      "seconds": 12.454219518927857,
+      "BLEU": 17.60027265265154,
+      "chrF++": 43.4495120570965,
+      "TER": 69.15145005370569,
+      "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+      "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+      "TER_signature": "nrefs:1|case:lc|tok:tercom|norm:no|punct:yes|asian:no|version:2.6.0"
+    },
+    {
+      "method": "beam",
+      "beam_size": 2,
+      "length_penalty": 1.0,
+      "seconds": 11.997600251808763,
+      "BLEU": 17.561001373490154,
+      "chrF++": 43.50647323620796,
+      "TER": 69.2266380236305,
+      "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+      "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+      "TER_signature": "nrefs:1|case:lc|tok:tercom|norm:no|punct:yes|asian:no|version:2.6.0"
+    },
+    {
+      "method": "beam",
+      "beam_size": 4,
+      "length_penalty": 0.6,
+      "seconds": 12.514177000848576,
+      "BLEU": 17.51220177611642,
+      "chrF++": 43.304172287218904,
+      "TER": 69.09774436090225,
+      "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+      "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+      "TER_signature": "nrefs:1|case:lc|tok:tercom|norm:no|punct:yes|asian:no|version:2.6.0"
+    },
+    {
+      "method": "beam",
+      "beam_size": 4,
+      "length_penalty": 0.8,
+      "seconds": 11.998613272095099,
+      "BLEU": 17.47998128101349,
+      "chrF++": 43.356523461130294,
+      "TER": 69.15145005370569,
+      "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+      "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+      "TER_signature": "nrefs:1|case:lc|tok:tercom|norm:no|punct:yes|asian:no|version:2.6.0"
+    },
+    {
+      "method": "beam",
+      "beam_size": 4,
+      "length_penalty": 1.0,
+      "seconds": 12.695686003891751,
+      "BLEU": 17.345411154543367,
+      "chrF++": 43.46500024284769,
+      "TER": 69.34479054779807,
+      "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+      "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+      "TER_signature": "nrefs:1|case:lc|tok:tercom|norm:no|punct:yes|asian:no|version:2.6.0"
+    },
+    {
+      "method": "beam",
+      "beam_size": 6,
+      "length_penalty": 0.6,
+      "seconds": 12.334171679103747,
+      "BLEU": 17.587286669242264,
+      "chrF++": 43.33928763660924,
+      "TER": 69.10848549946294,
+      "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+      "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+      "TER_signature": "nrefs:1|case:lc|tok:tercom|norm:no|punct:yes|asian:no|version:2.6.0"
+    },
+    {
+      "method": "beam",
+      "beam_size": 6,
+      "length_penalty": 0.8,
+      "seconds": 12.430246306816116,
+      "BLEU": 17.51698075924308,
+      "chrF++": 43.36189216246331,
+      "TER": 69.18367346938776,
+      "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+      "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+      "TER_signature": "nrefs:1|case:lc|tok:tercom|norm:no|punct:yes|asian:no|version:2.6.0"
+    },
+    {
+      "method": "beam",
+      "beam_size": 6,
+      "length_penalty": 1.0,
+      "seconds": 13.046613710932434,
+      "BLEU": 17.41340649942453,
+      "chrF++": 43.50438422535562,
+      "TER": 69.31256713211602,
+      "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0",
+      "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+      "TER_signature": "nrefs:1|case:lc|tok:tercom|norm:no|punct:yes|asian:no|version:2.6.0"
+    }
+  ]
+}

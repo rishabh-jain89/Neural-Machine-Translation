@@ -1,0 +1,41 @@
+{
+  "name": "transformer",
+  "seed": 19,
+
+  "d_model": 384,
+  "nhead": 6,
+  "num_encoder_layers": 4,
+  "num_decoder_layers": 4,
+  "dim_feedforward": 1536,
+  "dropout": 0.1,
+  "activation": "relu",
+  "norm_first": false,
+  "final_norm": false,
+  "tie_target_output": false,
+
+  "max_position": 512,
+  "max_train_content_len": 128,
+
+  "label_smoothing": 0.0,
+
+  "warmup_steps": 4000,
+  "noam_factor": 1.0,
+  "adam_beta1": 0.9,
+  "adam_beta2": 0.98,
+  "adam_eps": 1e-9,
+  "clip_norm": 1.0,
+
+  "batch_size": 160,
+  "dev_batch_size": 160,
+  "dev_decode_batch_size": 32,
+  "dev_max_new_tokens": 256,
+  "num_workers": 2,
+  "use_amp": true,
+
+  "max_epochs": 20,
+  "early_stopping_patience": 5,
+  "selection_metric": "val_loss",
+  "compute_dev_translation_metrics": false,
+  "save_epoch_checkpoints": false,
+  "zero_output_bias": false
+}

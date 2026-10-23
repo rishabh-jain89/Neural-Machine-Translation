@@ -1,0 +1,39 @@
+cat > .gitignore <<'EOF'
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+.myenv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Logs and temporary files
+*.log
+output.txt
+*.tmp
+
+# Archives generated locally
+*.zip
+release_assets/
+
+# Large trained model checkpoints
+*.pt
+
+# SentencePiece binary models
+*.model
+
+# Large training/raw corpus
+data/raw/
+data/clean/train.en
+data/clean/train.hi
+
+# Optional local cache
+.cache/
+EOF
